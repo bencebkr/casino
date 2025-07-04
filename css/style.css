@@ -6,6 +6,11 @@
     --dark: #0e1016;
 }
 
+/* Heading styles */
+h5 {
+    color: #ffffff;
+}
+
 /* Set global background color */
 body {
     background-color: #14171f;
