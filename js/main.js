@@ -107,6 +107,10 @@
         }
     });
 
-    
+    // Load footer component
+    $(function () {
+        $('#footer-placeholder').load('components/footer.html');
+    });
+
 })(jQuery);
 
