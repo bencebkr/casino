@@ -540,3 +540,7 @@ body {
     object-fit: cover;
     border-radius: 6px;
 }
+
+.bg-light {
+    background-color: #9191911c !important;
+}
