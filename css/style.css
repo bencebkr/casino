@@ -552,3 +552,17 @@ body {
     border-radius: 6px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
+
+/* Payment section styles */
+.payment-section img {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.payment-section .row > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
