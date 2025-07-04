@@ -6,6 +6,11 @@
     --dark: #0e1016;
 }
 
+/* Set global background color */
+body {
+    background-color: #14171f;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
