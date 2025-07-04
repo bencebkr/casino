@@ -489,3 +489,17 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+/* Bonus button styles */
+.bonus-btn {
+    background: var(--primary);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: .3s;
+}
+
+.bonus-btn:hover {
+    background: #007BFF;
+    color: #fff;
+}
