@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
   <rect width="200" height="200" fill="#ffcc66" />
-  <text x="100" y="105" font-size="36" font-family="Arial" text-anchor="middle" fill="#333333">Bonus 4</text>
+  <circle cx="100" cy="100" r="60" fill="#ffffff" />
+  <circle cx="100" cy="100" r="50" fill="#f2a900" />
+  <text x="100" y="115" font-size="50" font-family="Arial" text-anchor="middle" fill="#ffffff">Ƀ</text>
 </svg>

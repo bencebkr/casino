@@ -1,4 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
   <rect width="200" height="200" fill="#66cc66" />
-  <text x="100" y="105" font-size="36" font-family="Arial" text-anchor="middle" fill="#ffffff">Bonus 2</text>
+  <rect x="40" y="50" width="60" height="60" rx="10" fill="#ffffff" />
+  <circle cx="70" cy="80" r="5" fill="#000000" />
+  <rect x="100" y="90" width="60" height="60" rx="10" fill="#ffffff" />
+  <circle cx="130" cy="120" r="5" fill="#000000" />
+  <circle cx="115" cy="105" r="5" fill="#000000" />
+  <circle cx="145" cy="135" r="5" fill="#000000" />
 </svg>
