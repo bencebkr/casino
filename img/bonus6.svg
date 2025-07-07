@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
   <rect width="200" height="200" fill="#66cc66" />
-  <text x="100" y="105" font-size="36" font-family="Arial" text-anchor="middle" fill="#ffffff">Bonus 2</text>
+  <path d="M70 70 L130 70 L150 130 Q100 160 50 130 Z" fill="#ffcc00" stroke="#000" stroke-width="3" />
+  <circle cx="100" cy="90" r="15" fill="#ffffff" />
+  <text x="100" y="95" font-size="18" font-family="Arial" text-anchor="middle" fill="#000">$</text>
 </svg>

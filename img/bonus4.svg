@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
   <rect width="200" height="200" fill="#ffcc66" />
-  <text x="100" y="105" font-size="36" font-family="Arial" text-anchor="middle" fill="#333333">Bonus 4</text>
+  <rect x="60" y="50" width="80" height="110" rx="8" fill="#ffffff" stroke="#000000" stroke-width="3" />
+  <rect x="80" y="40" width="80" height="110" rx="8" fill="#ffffff" stroke="#000000" stroke-width="3" />
+  <text x="100" y="115" font-size="40" font-family="Arial" text-anchor="middle" fill="#ff0000">A</text>
+  <text x="120" y="105" font-size="20" font-family="Arial" text-anchor="middle" fill="#000000">♠</text>
 </svg>
