@@ -574,17 +574,18 @@ body {
     overflow: hidden;
     white-space: nowrap;
     background-color: #000000;
+    padding: 10px 0;
 }
 
 .bonus-scroll {
     display: inline-block;
     padding-left: 100%;
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 40s linear infinite;
 }
 
 .bonus-scroll span {
     margin-right: 2rem;
-    color: var(--primary);
+    color: #ffffff;
 }
 
 @keyframes scroll-left {
