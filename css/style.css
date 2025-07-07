@@ -431,12 +431,15 @@ body {
 
 
 /*** Footer ***/
+.footer i {
+    color: var(--primary);
+}
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--secondary);
+    color: var(--primary);
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -447,7 +450,7 @@ body {
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--secondary);
+    color: var(--primary);
     margin-right: 10px;
 }
 
@@ -588,7 +591,7 @@ body {
 
 /* Casino footer icon styles */
 .casino-design i {
-    color: var(--secondary);
+    color: var(--primary);
     transition: transform .3s;
 }
 
