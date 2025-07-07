@@ -211,6 +211,18 @@
     </div>
     <!-- Service End -->
 
+    <!-- Affiliate Revenue Growth Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="section-title text-center text-primary px-3">Affiliate Growth</h6>
+                <h2 class="mb-4">Revenue Is Soaring</h2>
+            </div>
+            <canvas id="affiliateChart" aria-label="Affiliate revenue growth chart" role="img"></canvas>
+        </div>
+    </div>
+    <!-- Affiliate Revenue Growth End -->
+
     <!-- Affiliate Connections Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -307,6 +319,13 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var ctx = document.getElementById("affiliateChart").getContext("2d");
+            new Chart(ctx, {type: "line", data: {labels: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], datasets: [{label: "Earnings", data: [10,12,15,18,24,30,45,60,80,110,140,180], fill: false, borderColor: "#0d6efd", tension: 0.4}]}, options: {animation: {duration: 2000}, responsive: true, plugins: {legend: {display: false}}}});
+        });
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
