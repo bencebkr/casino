@@ -591,3 +591,14 @@ body {
     from { transform: translateX(0); }
     to { transform: translateX(-100%); }
 }
+
+/* Casino footer icon styles */
+.casino-design i {
+    color: var(--secondary);
+    transition: transform .3s;
+}
+
+.casino-design i:hover {
+    transform: scale(1.2);
+    color: var(--primary);
+}
