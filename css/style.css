@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Set global background color */
+html,
 body {
     background-color: #000000;
 }
@@ -572,6 +573,7 @@ body {
 .bonus-marquee {
     overflow: hidden;
     white-space: nowrap;
+    background-color: #000000;
 }
 
 .bonus-scroll {
