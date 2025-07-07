@@ -501,8 +501,8 @@ body {
 
 .game-card:hover {
     margin-top: -10px;
-    box-shadow: none;
-    border-color: #DEE2E6;
+    border-color: var(--primary);
+    box-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary);
 }
 
 .game-card .game-img {
