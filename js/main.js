@@ -107,9 +107,11 @@
         }
     });
 
-    // Load footer component
+    // Load HTML components
     $(function () {
         $('#footer-placeholder').load('components/footer.html');
+        $('#header-placeholder').load('components/header.html');
+        $('#testimonials-placeholder').load('components/testimonial-section.html');
     });
 
 })(jQuery);
