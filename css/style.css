@@ -45,6 +45,13 @@ body {
     color: #FFFFFF;
 }
 
+/* Uniform hover color for all buttons */
+.btn:hover {
+    background-color: #C2B280;
+    border-color: #C2B280;
+    color: #000;
+}
+
 .btn-square {
     width: 38px;
     height: 38px;
@@ -68,6 +75,14 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: normal;
+}
+
+.btn-square:hover,
+.btn-sm-square:hover,
+.btn-lg-square:hover {
+    background-color: #C2B280;
+    border-color: #C2B280;
+    color: #000;
 }
 
 
@@ -455,7 +470,7 @@ body {
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: #C2B280;
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -484,7 +499,7 @@ body {
 }
 
 .bonus-btn:hover {
-    background: var(--secondary);
+    background: #C2B280;
     color: #000;
 }
 
