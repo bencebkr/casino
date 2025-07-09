@@ -85,6 +85,12 @@ body {
     color: #000;
 }
 
+/* Style for Play Now button */
+.play-now-btn {
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
