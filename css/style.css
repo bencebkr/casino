@@ -631,3 +631,21 @@ body {
     transform: scale(1.2);
     color: var(--primary);
 }
+
+/* Recent winners table styles */
+.winners-section table {
+    width: 100%;
+    color: var(--light);
+    border-collapse: collapse;
+}
+
+.winners-section th,
+.winners-section td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--primary);
+}
+
+.winners-section th {
+    text-transform: uppercase;
+    font-weight: 600;
+}
