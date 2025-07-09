@@ -496,6 +496,7 @@ body {
 .footer .btn.btn-link:hover {
     color: #C2B280;
     letter-spacing: 1px;
+    background-color: transparent;
     box-shadow: none;
 }
 
