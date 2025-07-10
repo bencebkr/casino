@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Tropica Casino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dark-theme.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="bg-dark border-bottom border-secondary py-2 position-sticky top-0 w-100">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <button class="btn btn-link text-white d-lg-none" id="sidebarToggle"><i class="fa fa-bars"></i></button>
+                <select class="form-select form-select-sm bg-dark text-white border-secondary ms-lg-2" style="width:auto;">
+                    <option selected>EN</option>
+                    <option>ES</option>
+                    <option>FR</option>
+                </select>
+            </div>
+            <div>
+                <button class="btn btn-outline-light btn-sm me-2">Login</button>
+                <button class="btn btn-primary btn-sm">Register</button>
+            </div>
+        </div>
+    </header>
+    <div class="d-flex flex-grow-1">
+        <aside id="sidebar" class="bg-secondary text-white p-3">
+            <nav class="nav flex-column">
+                <a href="#" class="nav-link text-white">All Games</a>
+                <a href="#" class="nav-link text-white">Exclusives</a>
+                <a href="#" class="nav-link text-white">Featured Games</a>
+                <a href="#" class="nav-link text-white">Live Games</a>
+                <a href="#" class="nav-link text-white">New Releases</a>
+                <a href="#" class="nav-link text-white">Scratch &amp; Win</a>
+                <a href="#" class="nav-link text-white">Slots</a>
+                <a href="#" class="nav-link text-white">Table Games</a>
+                <a href="#" class="nav-link text-white">Top Picks</a>
+                <a href="#" class="nav-link text-white">Video Poker</a>
+                <a href="#" class="nav-link text-white">Specialty Games</a>
+                <a href="#" class="nav-link text-white">Providers</a>
+                <a href="#" class="nav-link text-white">Promotions</a>
+                <a href="#" class="nav-link text-white">About Us</a>
+                <a href="#" class="nav-link text-white">Terms &amp; Conditions</a>
+                <a href="#" class="nav-link text-white">Support</a>
+                <a href="#" class="nav-link text-white">Live Support</a>
+            </nav>
+        </aside>
+        <main class="flex-grow-1 p-4">
+            <!-- Top Banner -->
+            <section class="mb-4">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="card h-100 text-white text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">400% Deposit Bonus</h5>
+                                <div class="btn-group mt-3">
+                                    <button class="btn btn-outline-light btn-sm">Details</button>
+                                    <button class="btn btn-primary btn-sm">Get Bonus</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 text-white text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">100% Cashback Insurance</h5>
+                                <div class="btn-group mt-3">
+                                    <button class="btn btn-outline-light btn-sm">Details</button>
+                                    <button class="btn btn-primary btn-sm">Get Bonus</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 text-white text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Weekly Raffle</h5>
+                                <div class="btn-group mt-3">
+                                    <button class="btn btn-outline-light btn-sm">Details</button>
+                                    <button class="btn btn-primary btn-sm">Get Bonus</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Search and Filters -->
+            <section class="mb-4">
+                <div class="d-flex flex-wrap align-items-center">
+                    <div class="flex-grow-1 me-2 mb-2">
+                        <input type="text" class="form-control bg-dark text-white border-secondary" placeholder="Search games...">
+                    </div>
+                    <div class="btn-group flex-wrap mb-2">
+                        <button class="btn btn-outline-light btn-sm active">All Games</button>
+                        <button class="btn btn-outline-light btn-sm">Exclusives</button>
+                        <button class="btn btn-outline-light btn-sm">New Releases</button>
+                        <button class="btn btn-outline-light btn-sm">Top Picks</button>
+                        <button class="btn btn-outline-light btn-sm">Live Games</button>
+                        <button class="btn btn-outline-light btn-sm">Featured Games</button>
+                        <button class="btn btn-outline-light btn-sm">Specialty Games</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Game Grid -->
+            <section>
+                <div class="row g-3" id="gameGrid">
+                    <!-- 12 game tiles -->
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-1.jpg" class="card-img-top" alt="Game 1">
+                            <div class="card-body p-2"><p class="small text-center">Game 1</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-2.jpg" class="card-img-top" alt="Game 2">
+                            <div class="card-body p-2"><p class="small text-center">Game 2</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-3.jpg" class="card-img-top" alt="Game 3">
+                            <div class="card-body p-2"><p class="small text-center">Game 3</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-4.jpg" class="card-img-top" alt="Game 4">
+                            <div class="card-body p-2"><p class="small text-center">Game 4</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-5.jpg" class="card-img-top" alt="Game 5">
+                            <div class="card-body p-2"><p class="small text-center">Game 5</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-6.jpg" class="card-img-top" alt="Game 6">
+                            <div class="card-body p-2"><p class="small text-center">Game 6</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-7.jpg" class="card-img-top" alt="Game 7">
+                            <div class="card-body p-2"><p class="small text-center">Game 7</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-8.jpg" class="card-img-top" alt="Game 8">
+                            <div class="card-body p-2"><p class="small text-center">Game 8</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-9.jpg" class="card-img-top" alt="Game 9">
+                            <div class="card-body p-2"><p class="small text-center">Game 9</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/project-10.jpg" class="card-img-top" alt="Game 10">
+                            <div class="card-body p-2"><p class="small text-center">Game 10</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/service-1.jpg" class="card-img-top" alt="Game 11">
+                            <div class="card-body p-2"><p class="small text-center">Game 11</p></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" >
+                        <div class="card bg-dark text-white">
+                            <img src="img/service-2.jpg" class="card-img-top" alt="Game 12">
+                            <div class="card-body p-2"><p class="small text-center">Game 12</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-outline-light me-2">Load more games</button>
+                    <button class="btn btn-primary">Show all</button>
+                </div>
+            </section>
+            <!-- Providers -->
+            <section class="mt-5">
+                <div class="d-flex overflow-auto gap-3 py-3">
+                    <img src="https://via.placeholder.com/120x60?text=SmartSoft+Gaming" alt="SmartSoft" class="img-fluid">
+                    <img src="https://via.placeholder.com/120x60?text=Instant+Games" alt="Instant Games" class="img-fluid">
+                    <img src="https://via.placeholder.com/120x60?text=Rival" alt="Rival" class="img-fluid">
+                    <img src="https://via.placeholder.com/120x60?text=Tom+Horn" alt="Tom Horn" class="img-fluid">
+                    <img src="https://via.placeholder.com/120x60?text=Vivo+Gaming" alt="Vivo Gaming" class="img-fluid">
+                    <img src="https://via.placeholder.com/120x60?text=BET" alt="BET" class="img-fluid">
+                </div>
+            </section>
+        </main>
+    </div>
+    <button id="liveSupport" class="btn btn-primary position-fixed bottom-0 end-0 m-4 rounded-circle"><i class="fa fa-comments"></i></button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('sidebarToggle').addEventListener('click', function () {
+            document.getElementById('sidebar').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

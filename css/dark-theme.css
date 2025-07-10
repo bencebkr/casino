@@ -1,0 +1,59 @@
+:root {
+    --primary: #ff6600;
+    --secondary: #ffd700;
+    --bg: #121212;
+    --sidebar-bg: #1e1e1e;
+    --card-bg: #242424;
+}
+
+body {
+    background: var(--bg);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sidebar {
+    width: 250px;
+    background: var(--sidebar-bg);
+}
+
+@media (max-width: 991.98px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -250px;
+        transition: left .3s;
+        z-index: 1050;
+    }
+    #sidebar.show {
+        left: 0;
+    }
+}
+
+.card {
+    background: var(--card-bg);
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #000;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #000;
+}
+
+#liveSupport {
+    width: 60px;
+    height: 60px;
+}
