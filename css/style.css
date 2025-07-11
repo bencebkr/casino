@@ -611,6 +611,7 @@ body {
     white-space: nowrap;
     background-color: #000000;
     padding: 10px 0;
+    border-bottom: 2px solid var(--secondary);
 }
 
 .bonus-scroll {
@@ -621,7 +622,11 @@ body {
 
 .bonus-scroll span {
     margin-right: 2rem;
-    color: #ffffff;
+    color: var(--secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
 }
 
 @keyframes scroll-left {
