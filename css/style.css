@@ -344,7 +344,8 @@ body {
     opacity: 1;
 }
 
-.project-carousel .owl-dots {
+.project-carousel .owl-dots,
+.news-carousel .owl-dots {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,7 +353,8 @@ body {
     margin-top: 20px;
 }
 
-.project-carousel .owl-dot {
+.project-carousel .owl-dot,
+.news-carousel .owl-dot {
     width: 35px;
     height: 35px;
     margin: 3px;
@@ -365,7 +367,9 @@ body {
 }
 
 .project-carousel .owl-dot:hover,
-.project-carousel .owl-dot.active {
+.project-carousel .owl-dot.active,
+.news-carousel .owl-dot:hover,
+.news-carousel .owl-dot.active {
     color: #FFFFFF;
     border-color: var(--primary);
     background: var(--primary);
