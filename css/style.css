@@ -703,31 +703,45 @@ body {
 }
 
 /* FAQ customization */
-#faqAccordion .accordion-item {
+#faqAccordion .accordion-item,
+#gameFaqAccordion .accordion-item,
+#affiliateFaqAccordion .accordion-item {
     background-color: #333333;
-    border: none;
+    border: 1px solid var(--primary);
 }
 
-#faqAccordion .accordion-button {
+#faqAccordion .accordion-button,
+#gameFaqAccordion .accordion-button,
+#affiliateFaqAccordion .accordion-button {
     background-color: #333333;
     color: #ffffff;
 }
 
 #faqAccordion .accordion-button:hover,
-#faqAccordion .accordion-button:not(.collapsed) {
+#faqAccordion .accordion-button:not(.collapsed),
+#gameFaqAccordion .accordion-button:hover,
+#gameFaqAccordion .accordion-button:not(.collapsed),
+#affiliateFaqAccordion .accordion-button:hover,
+#affiliateFaqAccordion .accordion-button:not(.collapsed) {
     color: var(--primary);
     box-shadow: none;
 }
 
-#faqAccordion .accordion-button:focus {
+#faqAccordion .accordion-button:focus,
+#gameFaqAccordion .accordion-button:focus,
+#affiliateFaqAccordion .accordion-button:focus {
     box-shadow: none;
 }
 
-#faqAccordion .accordion-button::after {
+#faqAccordion .accordion-button::after,
+#gameFaqAccordion .accordion-button::after,
+#affiliateFaqAccordion .accordion-button::after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff6600'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
 
-#faqAccordion .accordion-body {
+#faqAccordion .accordion-body,
+#gameFaqAccordion .accordion-body,
+#affiliateFaqAccordion .accordion-body {
     color: #ffffff;
 }
 /* Double margin and padding for section spacing */
