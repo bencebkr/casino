@@ -39,6 +39,7 @@ body {
 .btn {
     font-weight: 500;
     transition: .5s;
+    border-radius: 50px;
 }
 
 .btn.btn-primary {
