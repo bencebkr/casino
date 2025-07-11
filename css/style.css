@@ -681,3 +681,18 @@ body {
 #faqAccordion .accordion-body {
     color: #ffffff;
 }
+/* Double margin and padding for section spacing */
+.py-5 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+.mt-5 {
+    margin-top: 6rem !important;
+}
+.mb-5 {
+    margin-bottom: 6rem !important;
+}
+.my-5 {
+    margin-top: 6rem !important;
+    margin-bottom: 6rem !important;
+}
