@@ -571,6 +571,8 @@ body {
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: 600;
     border-radius: 6px;
     opacity: 0;
     transition: .5s;
@@ -586,26 +588,18 @@ body {
     left: 8px;
     padding: 2px 6px;
     font-size: 0.75rem;
-    background: var(--secondary);
-    color: #000;
+    background: var(--primary);
+    color: #fff;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: 600;
     z-index: 1;
 }
 
-.game-card .game-label.hot {
-    background: #dc3545;
-    color: #fff;
-}
-
-.game-card .game-label.new {
-    background: #198754;
-    color: #fff;
-}
-
+.game-card .game-label.hot,
+.game-card .game-label.new,
 .game-card .game-label.top {
-    background: #0d6efd;
+    background: var(--primary);
     color: #fff;
 }
 
