@@ -646,7 +646,7 @@ body {
     white-space: nowrap;
     background-color: #000000;
     padding: 10px 0;
-    border-bottom: 2px solid var(--secondary);
+    border-bottom: 2px solid var(--primary);
 }
 
 .bonus-scroll {
